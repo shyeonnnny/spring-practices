@@ -46,5 +46,9 @@
 	</build>			
 	<modules>
 		<module>hellospring03</module>
+		<module>emaillist03</module>
+		<module>logex2</module>
+		<module>aoptest</module>
+		<module>fileupload</module>
 	</modules>
 </project>
