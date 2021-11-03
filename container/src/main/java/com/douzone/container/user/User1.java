@@ -7,4 +7,5 @@ public class User1 {
 	public String getName() {
 		return "김승현";
 	}
+	
 }

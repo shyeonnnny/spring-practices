@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import com.douzone.container.config.user.AppConfig01;
 import com.douzone.container.user.User;
 
-public class AppConfigTest {
+public class AppConfigTest { 
 
 	public static void main(String[] args) {
 		testAppConfig01();

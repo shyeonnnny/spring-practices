@@ -28,7 +28,6 @@ public class User {
 		this.name = name;
 	}
 	
-	
 
 	public void setFriend(Friend friend) {
 		this.friend = friend;

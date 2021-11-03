@@ -16,18 +16,19 @@
 
 	<bean id="user1" class="com.douzone.container.user.User1" />
 	
-	<!-- 기본 생성자로 빈 생성하기 -->
+	<!-- 기본 생성자로 = empty생성자 생성하기 -->
 	<bean id="user" name="usr" class="com.douzone.container.user.User" />
 
 	<!-- 파라미터 1개인 생성자로 빈 생성하기 -->
 	<bean id="user2" name="usr2" class="com.douzone.container.user.User">
 		<constructor-arg value="둘리"/>
 	</bean>
+	
 
 	<!-- 파라미터 2개인 생성자로 빈 생성하기1 -->
 	<bean id="user3" class="com.douzone.container.user.User">
-		<constructor-arg value="3"/>
 		<constructor-arg value="마이콜"/>
+		<constructor-arg value="3"/>
 	</bean>
 
 	<!-- 파라미터 2개인 생성자로 빈 생성하기2 -->
